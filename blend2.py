@@ -17,8 +17,8 @@ def load_image(url):
     return Image.open(BytesIO(response.content)).convert("RGBA")
 
 # URLs ของภาพที่โหลดได้แน่นอน
-image_url1 = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Golde33443.jpg/640px-Golde33443.jpg"
-image_url2 = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Golden_Retriever_Carlos_%2810518190846%29.jpg/640px-Golden_Retriever_Carlos_%2810518190846%29.jpg"
+image_url1 ="https://upload.wikimedia.org/wikipedia/commons/b/bf/Bulldog_inglese.jpg"
+image_url2 ="https://vetmarlborough.co.nz/wp-content/uploads/old-cats.jpg"
 
 st.title("🔀 ผสมภาพ 2 รูป (Blending)")
 
