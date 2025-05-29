@@ -30,7 +30,7 @@ for i in range(3):
         img = load_image(image_urls[i])
         if st.button(f"ดูภาพ {i+1}"):
             st.session_state.selected_image = i
-        st.image(img, use_column_width=True, caption=f"ภาพที่ {i+1}")
+        st.image(img, use_container_width =True, caption=f"ภาพที่ {i+1}")
 
 # แสดงภาพขนาดใหญ่พร้อมปรับขนาด
 if st.session_state.selected_image is not None:
