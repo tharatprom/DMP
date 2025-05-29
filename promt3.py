@@ -48,4 +48,4 @@ if st.session_state.selected_image is not None:
     resized_img = original_img.resize(new_size)
 
     # แสดงภาพที่ปรับขนาดแล้ว
-    st.image(resized_img, caption=f"ภาพที่ {st.session_state.selected_image + 1} ({scale}%)", use_column_width=False)
+    st.image(resized_img, caption=f"ภาพที่ {st.session_state.selected_image + 1} ({scale}%)", use_container_width =False)
