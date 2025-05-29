@@ -21,9 +21,9 @@ def draw_axes(image):
 
 # URLs ของรูปภาพ
 image_urls = [
-    "https://upload.wikimedia.org/wikipedia/commons/b/bf/Bulldog_inglese.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bulldog_adult_male.jpg/640px-Bulldog_adult_male.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/English_Bulldog_600.jpg/640px-English_Bulldog_600.jpg"
+    "https://upload.wikimedia.org/wikipedia/commons/9/99/English_bulldog.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/2/22/Bulldog_2.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/5/56/Bulldog_adult_male.jpg"
 ]
 
 # Session state สำหรับเก็บภาพที่เลือก
